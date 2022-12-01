@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header,
+section h2,
+footer h2,
+footer h3 {
+  font-family: "Bungee", cursive;
+}
+header {
+  background-color: #182c61;
+  color: white;
+  padding: 15px 0px;
+}
+header nav li {
+  display: inline;
+  margin-left: 16px;
+}
+header nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+header h1,
+section h2,
+footer h2 {
+  font-weight: normal;
+}
+header .container,
+section .container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-list img,
+.img-social img {
+  height: 25px;
+}
+.logo-list li,
+.img-social li {
+  display: inline;
+  margin-left: 8px;
+}
+
+section {
+  margin-top: 24px;
+}
+section,
+footer {
+  color: #182c61;
+}
+section h2 {
+  margin-bottom: 16px;
+}
+section p {
+  margin-bottom: 8px;
+}
+
+footer h2 {
+  max-width: 1280px;
+  width: 100%;
+  margin: 30px auto;
+}
+
+footer h3 {
+  padding: 15px 0;
+}
+.store-front {
+  margin-right: 32px;
+}
+
+.acompanhe {
+  display: block;
+}
+
+.venha {
+  display: block;
+}
+
+footer .container {
+  margin-top: 0;
+}
+
+footer form input,
+footer form button {
+  padding: 5px;
+  width: 320px;
+  margin-bottom: 8px;
+}
+
+footer form button {
+  background-color: #182c61;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+footer form button:hover {
+  background-color: white;
+  color: #182c61;
+  border: solid 2px #182c61;
+}
+
+.img-social li a {
+  text-decoration: none;
+}
+
+footer .container2 {
+  background-color: #182c61;
+  color: white;
+  height: 50px;
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+  justify-content: center;
+}
+input:focus,
+textarea:focus {
+  outline-color: rebeccapurple;
+}
